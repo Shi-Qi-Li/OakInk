@@ -88,7 +88,7 @@ OAKINK_DIR/image/anno/ # OakInk-Image annotations
         [seq_id]__[ts]__[sbj_flag]__[frame]__[cam_id].pkl # 21x3 hand joints in camera space.
     hand_v/ # 778 vertices of each sample
         [seq_id]__[ts]__[sbj_flag]__[frame]__[cam_id].pkl # 778x3 hand vertices in camera space.
-    obj_trasnf/ # objects SE(3) transformation of each sample, T_c_o, from obj-canonical to camera space.
+    obj_transf/ # objects SE(3) transformation of each sample, T_c_o, from obj-canonical to camera space.
         [seq_id]__[ts]__[sbj_flag]__[frame]__[cam_id].pkl # 4x4 object transformation matrix (T_c_o).
     split/ # data split file
         split0/ # split mode: VIEWS
